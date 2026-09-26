@@ -1,0 +1,24 @@
+.prompt-input {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.prompt-input label {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.prompt-input textarea {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #d9dce3;
+  border-radius: 12px;
+  resize: vertical;
+  font: inherit;
+  outline: none;
+}
+
+.prompt-input textarea:focus {
+  border-color: #6366f1;
+}

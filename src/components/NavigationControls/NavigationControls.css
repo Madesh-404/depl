@@ -1,0 +1,40 @@
+.navigation-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 24px;
+}
+
+.navigation-controls button {
+  padding: 10px 16px;
+
+  border: 1px solid #d9dce3;
+  border-radius: 10px;
+
+  background: white;
+  color: #111827;
+
+  font: inherit;
+  cursor: pointer;
+}
+
+.navigation-controls button:hover:not(:disabled) {
+  background: #f3f4f6;
+}
+
+.navigation-controls button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.navigation-controls span {
+  color: #6b7280;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navigation-controls__right {
+  display: flex;
+  gap: 10px;
+}
